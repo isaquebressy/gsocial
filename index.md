@@ -1,3 +1,3 @@
-## G Social
+# G Social
 
 Esta página etá em desenvolvimento...
