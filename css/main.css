@@ -5776,15 +5776,11 @@ body #main-content .et_builder_inner_content > p {
 }
 @font-face {
   font-family: ETmodules;
-  src: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/core/admin/fonts/modules.eot);
-  src: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/core/admin/fonts/modules.eot?#iefix)
-      format("embedded-opentype"),
-    url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/core/admin/fonts/modules.ttf)
-      format("truetype"),
-    url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/core/admin/fonts/modules.woff)
-      format("woff"),
-    url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/core/admin/fonts/modules.svg#ETmodules)
-      format("svg");
+  src: url(../fonts/modules.eot);
+  src: url(../fonts/modules.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/modules.ttf) format("truetype"),
+    url(../fonts/modules.woff) format("woff"),
+    url(../fonts/modules.svg#ETmodules) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -18957,7 +18953,7 @@ a.et_pb_more_button:after {
 }
 .et_subscribe_loader {
   display: none;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/includes/builder/styles/images/subscribe-loader.gif);
+  background: url(../imgs/icons/subscribe-loader.gif);
   width: 16px;
   height: 16px;
   position: absolute;
@@ -23801,8 +23797,7 @@ body.et-bfb .et_pb_slides .et_parallax_bg.et_pb_parallax_css {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif)
-    no-repeat;
+  background: url(../icons/preloader.gif) no-repeat;
   border-radius: 32px;
   width: 32px;
   height: 32px;
@@ -30220,8 +30215,7 @@ body.woocommerce-page
 .et-info:before {
   width: 22px;
   height: 20px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -97px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -97px -2px;
 }
 .et-info .et-box-content {
   color: #ada771;
@@ -30244,8 +30238,7 @@ body.woocommerce-page
 .et-warning:before {
   width: 17px;
   height: 17px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -75px -41px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -75px -41px;
 }
 .et-warning .et-box-content {
   color: #ad7676;
@@ -30268,8 +30261,7 @@ body.woocommerce-page
 .et-download:before {
   width: 19px;
   height: 14px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -23px -19px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -23px -19px;
 }
 .et-download .et-box-content {
   color: #7ea57b;
@@ -30292,8 +30284,7 @@ body.woocommerce-page
 .et-bio:before {
   width: 19px;
   height: 15px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -23px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -23px -2px;
   top: 33px;
 }
 .et-bio .et-box-content {
@@ -30350,8 +30341,7 @@ body.woocommerce-page
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
 }
 .et-tooltip-arrow {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -120px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -120px -2px;
   width: 24px;
   height: 13px;
   display: block;
@@ -30398,8 +30388,7 @@ body.woocommerce-page
   margin-left: -6px;
   width: 13px;
   height: 10px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -58px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -58px -2px;
 }
 .et-learn-more .open span.et_learnmore_arrow span {
   background-position: -58px -14px;
@@ -30441,8 +30430,7 @@ body.woocommerce-page
   margin: 0 3px;
 }
 .et_shortcodes_controls a {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -45px -1px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -45px -1px;
   width: 11px;
   height: 11px;
   display: inline-block;
@@ -30780,72 +30768,60 @@ a.icon-button span.et-icon {
   height: 16px;
 }
 a.download-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -3px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -3px -2px;
   width: 17px;
   height: 20px;
   top: 7px;
 }
 a.search-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -206px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -206px -2px;
   top: 9px;
 }
 a.refresh-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -169px -19px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -169px -19px;
 }
 a.question-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -164px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -164px -2px;
 }
 a.people-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -151px -33px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -151px -33px;
   height: 17px;
   top: 9px;
 }
 a.warning-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -188px -19px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -188px -19px;
   width: 15px;
 }
 a.mail-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -131px -33px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -131px -33px;
   height: 15px;
 }
 a.heart-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -131px -18px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -131px -18px;
   width: 14px;
   height: 13px;
   top: 12px;
   left: 14px;
 }
 a.paper-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -147px -17px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -147px -17px;
   width: 15px;
   height: 15px;
 }
 a.notice-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -147px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -147px -2px;
   width: 15px;
   height: 13px;
   top: 11px;
 }
 a.stats-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -184px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -184px -2px;
   width: 15px;
   height: 14px;
   top: 11px;
 }
 a.rss-icon span.et-icon {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -171px -36px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -171px -36px;
   width: 15px;
   top: 9px;
 }
@@ -30869,13 +30845,11 @@ ul.et_shortcodes_mobile_nav span {
 }
 .et_shortcodes_controls_arrows .et_sc_nav_prev span,
 ul.et_shortcodes_mobile_nav .et_sc_nav_prev span {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -3px -24px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -3px -24px;
 }
 .et_shortcodes_controls_arrows .et_sc_nav_next span,
 ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -3px -40px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -3px -40px;
 }
 .et-tabs-container {
   background: #fff;
@@ -31173,8 +31147,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
   position: absolute;
   top: 16px;
   left: 20px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -23px -36px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -23px -36px;
   width: 17px;
   height: 19px;
 }
@@ -31194,8 +31167,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
   position: absolute;
   top: 2px;
   left: 18px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -190px -37px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -190px -37px;
   display: block;
 }
 .et-protected-form p .et_protected_password {
@@ -31306,8 +31278,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
 }
 .et-custom-list ul li:before {
   top: 5px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -74px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -74px -2px;
 }
 .et-custom-list ul li:before,
 .etlist-x ul li:before {
@@ -31319,8 +31290,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
 }
 .etlist-x ul li:before {
   top: 6px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -75px -21px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -75px -21px;
 }
 .etlist-dot ul li {
   padding-left: 25px !important;
@@ -31330,8 +31300,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
   position: absolute;
   top: 9px;
   left: 0;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -230px -3px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -230px -3px;
   width: 10px;
   height: 9px;
 }
@@ -31406,8 +31375,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span {
   left: 30px;
   width: 22px;
   height: 18px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -74px -2px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -74px -2px;
 }
 .pricing-table ul.pricing li.x-mark span.pricing-mark {
   background-position: -74px -20px;
@@ -31525,12 +31493,10 @@ span.et-price span.dollar-sign {
   left: 35px;
   width: 25px;
   height: 19px;
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -45px -35px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -45px -35px;
 }
 .t-bottom-arrow {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -97px -25px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -97px -25px;
   width: 31px;
   height: 32px;
   position: absolute;
@@ -31555,8 +31521,7 @@ span.et-price span.dollar-sign {
   margin-bottom: 10px;
 }
 .et_quote .et_quote_sign {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -206px -20px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -206px -20px;
   position: absolute;
   top: 0;
   left: 0;
@@ -31571,8 +31536,7 @@ span.et-price span.dollar-sign {
   top: 3px;
 }
 .quote-center .et_quote_additional_sign {
-  background: url(//www.factorcomunicacao.com.br/portal/wp-content/themes/Divi/epanel/shortcodes/images/shortcodes-sprite.png)
-    no-repeat -251px -22px;
+  background: url(../icons/shortcodes-sprite.png) no-repeat -251px -22px;
   position: absolute;
   top: 3px;
   right: 13px;
