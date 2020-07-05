@@ -438,6 +438,9 @@ li.get-started:hover {
   .et_header_style_left #logo {
     max-height: 90% !important;
   }
+  .et_pb_slider .et_pb_slide_0 .et_pb_container {
+    background-size: 150px !important;
+  }
 }
 @media only screen and (min-width: 768px) {
   #et-info {
@@ -1017,11 +1020,12 @@ body #page-container .et_pb_section .et_pb_button_2:hover {
 }
 .et_pb_slider .et_pb_slide_0 {
   background-color: #ffce08;
-  background-image: url(../imgs/pointerman.png);
-  background-image: url(../imgs/pointerman.png),
-    radial-gradient(#ffce08 40%, #ffa100);
+  background: radial-gradient(#ffce08 40%, #ffa100);
+}
+.et_pb_slider .et_pb_slide_0 .et_pb_container {
+  background: url(../imgs/pointerman.png) no-repeat;
   background-size: contain;
-  background-position-x: 80%;
+  background-position: right center;
 }
 .et_pb_section_5 {
   background: radial-gradient(#ffce08 40%, #ffa100);
